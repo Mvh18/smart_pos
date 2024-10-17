@@ -3,6 +3,11 @@
 /public/build
 /public/hot
 /public/storage
+/public/css
+/public/fonts
+/public/js/
+/public/images
+/public/mix-manifest.json
 /storage/*.key
 /vendor
 .env
