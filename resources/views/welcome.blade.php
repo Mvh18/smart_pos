@@ -53,9 +53,9 @@
         <!-- partial:partials/_sidebar.html -->
         <nav class="sidebar sidebar-offcanvas" id="sidebar">
             <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
-                <a class="sidebar-brand brand-logo" href="index.html"><img src="assets/images/logo.svg"
+                <a class="sidebar-brand brand-logo" href="index.html"><img src="{{ asset('images/logo.svg') }}"
                         alt="logo" /></a>
-                <a class="sidebar-brand brand-logo-mini" href="index.html"><img src="assets/images/logo-mini.svg"
+                <a class="sidebar-brand brand-logo-mini" href="index.html"><img src="{{ asset('images/logo-mini.svg') }}"
                         alt="logo" /></a>
             </div>
             <ul class="nav">
@@ -63,7 +63,7 @@
                     <div class="profile-desc">
                         <div class="profile-pic">
                             <div class="count-indicator">
-                                <img class="img-xs rounded-circle " src="assets/images/faces/face15.jpg" alt="">
+                                <img class="img-xs rounded-circle " src="{{ asset('images/faces/face15.jpg') }}" alt="">
                                 <span class="count bg-success"></span>
                             </div>
                             <div class="profile-name">
@@ -217,7 +217,7 @@
             <nav class="navbar p-0 fixed-top d-flex flex-row">
                 <div class="navbar-brand-wrapper d-flex d-lg-none align-items-center justify-content-center">
                     <a class="navbar-brand brand-logo-mini" href="index.html"><img
-                            src="../../../assets/images/logo-mini.svg" alt="logo" /></a>
+                            src="{{ asset('images/logo-mini-svg') }}" alt="logo" /></a>
                 </div>
                 <div class="navbar-menu-wrapper flex-grow d-flex align-items-stretch">
                     <button class="navbar-toggler navbar-toggler align-self-center" type="button"
@@ -293,7 +293,7 @@
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item preview-item">
                                     <div class="preview-thumbnail">
-                                        <img src="../../../assets/images/faces/face4.jpg" alt="image"
+                                        <img src="{{ asset('images/faces/face4.jpg') }}" alt="image"
                                             class="rounded-circle profile-pic">
                                     </div>
                                     <div class="preview-item-content">
@@ -304,7 +304,7 @@
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item preview-item">
                                     <div class="preview-thumbnail">
-                                        <img src="../../../assets/images/faces/face2.jpg" alt="image"
+                                        <img src="{{ asset('images/faces/face2.jpg') }}" alt="image"
                                             class="rounded-circle profile-pic">
                                     </div>
                                     <div class="preview-item-content">
@@ -315,7 +315,7 @@
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item preview-item">
                                     <div class="preview-thumbnail">
-                                        <img src="../../../assets/images/faces/face3.jpg" alt="image"
+                                        <img src="{{ asset('images/faces/face3.jpg') }}" alt="image"
                                             class="rounded-circle profile-pic">
                                     </div>
                                     <div class="preview-item-content">
@@ -380,7 +380,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link" id="profileDropdown" href="#" data-bs-toggle="dropdown">
                                 <div class="navbar-profile">
-                                    <img class="img-xs rounded-circle" src="../../../assets/images/faces/face15.jpg"
+                                    <img class="img-xs rounded-circle" src="{{ asset('images/faces/face15.jpg') }}"
                                         alt="">
                                     <p class="mb-0 d-none d-sm-block navbar-profile-name">Henry Klein</p>
                                     <i class="mdi mdi-menu-down d-none d-sm-block"></i>
@@ -741,7 +741,7 @@
                                                         </div>
                                                     </td>
                                                     <td>
-                                                        <img src="assets/images/faces/face1.jpg" alt="image" />
+                                                        <img src="{{ asset('images/faces/face1.jpg') }}" alt="image" />
                                                         <span class="ps-2">Henry Klein</span>
                                                     </td>
                                                     <td> 02312 </td>
@@ -762,7 +762,7 @@
                                                         </div>
                                                     </td>
                                                     <td>
-                                                        <img src="assets/images/faces/face2.jpg" alt="image" />
+                                                        <img src="{{ asset('images/faces/face2.jpg') }}" alt="image" />
                                                         <span class="ps-2">Estella Bryan</span>
                                                     </td>
                                                     <td> 02312 </td>
@@ -783,7 +783,7 @@
                                                         </div>
                                                     </td>
                                                     <td>
-                                                        <img src="assets/images/faces/face5.jpg" alt="image" />
+                                                        <img src="{{ asset('images/faces/face5.jpg') }}" alt="image" />
                                                         <span class="ps-2">Lucy Abbott</span>
                                                     </td>
                                                     <td> 02312 </td>
@@ -804,7 +804,7 @@
                                                         </div>
                                                     </td>
                                                     <td>
-                                                        <img src="assets/images/faces/face3.jpg" alt="image" />
+                                                        <img src="{{ asset('images/faces/face3.jpg') }}" alt="image" />
                                                         <span class="ps-2">Peter Gill</span>
                                                     </td>
                                                     <td> 02312 </td>
@@ -825,7 +825,7 @@
                                                         </div>
                                                     </td>
                                                     <td>
-                                                        <img src="assets/images/faces/face4.jpg" alt="image" />
+                                                        <img src="{{ asset('images/faces/face4.jpg') }}" alt="image" />
                                                         <span class="ps-2">Sallie Reyes</span>
                                                     </td>
                                                     <td> 02312 </td>
@@ -855,7 +855,7 @@
                                     <div class="preview-list">
                                         <div class="preview-item border-bottom">
                                             <div class="preview-thumbnail">
-                                                <img src="assets/images/faces/face6.jpg" alt="image"
+                                                <img src="{{ asset('images/faces/face6.jpg') }}" alt="image"
                                                     class="rounded-circle" />
                                             </div>
                                             <div class="preview-item-content d-flex flex-grow">
@@ -870,7 +870,7 @@
                                         </div>
                                         <div class="preview-item border-bottom">
                                             <div class="preview-thumbnail">
-                                                <img src="assets/images/faces/face8.jpg" alt="image"
+                                                <img src="{{ asset('images/faces/face8.jpg') }}" alt="image"
                                                     class="rounded-circle" />
                                             </div>
                                             <div class="preview-item-content d-flex flex-grow">
@@ -885,7 +885,7 @@
                                         </div>
                                         <div class="preview-item border-bottom">
                                             <div class="preview-thumbnail">
-                                                <img src="assets/images/faces/face9.jpg" alt="image"
+                                                <img src="{{ asset('images/faces/face9.jpg') }}" alt="image"
                                                     class="rounded-circle" />
                                             </div>
                                             <div class="preview-item-content d-flex flex-grow">
@@ -900,7 +900,7 @@
                                         </div>
                                         <div class="preview-item border-bottom">
                                             <div class="preview-thumbnail">
-                                                <img src="assets/images/faces/face11.jpg" alt="image"
+                                                <img src="{{ asset('images/faces/face11.jpg') }}" alt="image"
                                                     class="rounded-circle" />
                                             </div>
                                             <div class="preview-item-content d-flex flex-grow">
@@ -924,20 +924,20 @@
                                     <div class="owl-carousel owl-theme full-width owl-carousel-dash portfolio-carousel"
                                         id="owl-carousel-basic">
                                         <div class="item">
-                                            <img src="assets/images/dashboard/Rectangle.jpg" alt="">
+                                            <img src="{{ asset('images/dashboard/Rectangle.jpg') }}" alt="">
                                         </div>
                                         <div class="item">
-                                            <img src="assets/images/dashboard/Img_5.jpg" alt="">
+                                            <img src="{{ asset('images/dashboard/Img_5.jpg') }}" alt="">
                                         </div>
                                         <div class="item">
-                                            <img src="assets/images/dashboard/img_6.jpg" alt="">
+                                            <img src="{{ asset('images/dashboard/img_6.jpg') }}" alt="">
                                         </div>
                                     </div>
                                     <div class="d-flex py-4">
                                         <div class="preview-list w-100">
                                             <div class="preview-item p-0">
                                                 <div class="preview-thumbnail">
-                                                    <img src="assets/images/faces/face12.jpg" class="rounded-circle"
+                                                    <img src="{{ asset('images/faces/face12.jpg') }}" class="rounded-circle"
                                                         alt="">
                                                 </div>
                                                 <div class="preview-item-content d-flex flex-grow">
@@ -1109,10 +1109,6 @@
         <!-- page-body-wrapper ends -->
     </div>
     <script src="{{ mix('js/app.js') }}"></script>
-    <script src="{{ asset('js/vendors/chart.umd.js') }}"></script>
-    <script src="{{ asset('js/vendors/jquery-jvectormap-world-mill-en.js') }}"></script>
-    <script src="{{ asset('js/vendors/jquery-jvectormap.min.js') }}"></script>
-    <script src="{{ asset('js/vendors/owl.carousel.min.js') }}"></script>
 
 </body>
 

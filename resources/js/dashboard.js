@@ -12,7 +12,7 @@
 
     if ($("#transaction-history").length) { 
       const doughnutChartCanvas = document.getElementById('transaction-history');
-      new Chart(doughnutChartCanvas, {
+      /*new Chart(doughnutChartCanvas, {
         type: 'doughnut',
         data: {
           labels: ["Paypal", "Stripe","Cash"],
@@ -39,7 +39,7 @@
             },
           },
         },
-      });
+      });*/
     }
     if ($('#owl-carousel-basic').length) {
       $('#owl-carousel-basic').owlCarousel({

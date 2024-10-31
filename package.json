@@ -10,7 +10,7 @@
         "production": "mix --production"
     },
     "dependencies": {
-        "@mdi/font": "^7.3.67",
+        "@mdi/font": "^7.4.47",
         "ace-builds": "^1.31.2",
         "bootstrap": "^5.3.3",
         "bootstrap-datepicker": "^1.10.0",
@@ -38,6 +38,7 @@
         "browser-sync": "^2.29.3",
         "compass-mixins": "^0.12.12",
         "del": "^6.1.1",
+        "jquery-ui": "^1.14.1",
         "laravel-mix": "^6.0.49",
         "laravel-vite-plugin": "^1.0",
         "merge-stream": "^2.0.0",
